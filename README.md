@@ -95,6 +95,7 @@ That div is composed of 2 parts:
  <u>Requirements:</u>  
   1. A div of 100% height which allows to scroll on multiple items.  
   
+  
   In this case, you can scroll through 2 items:
 
 ###### First Item: Media 
@@ -109,6 +110,7 @@ That div is composed of 2 parts:
 ##### Second Item: Feed details
 
   <u>Requirements:</u>  
+  
   A div (100% height) whose content should be horizontally centred, and stacks the following properties:
 
    1. brand `logo` at the top.   
