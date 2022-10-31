@@ -15,7 +15,7 @@ Expected Time: 3-5 hours total time. ⌛  (This is not a strict limit: you can s
 to see the kind of stuff we do here. If you enjoy building that feature, you'll have a great time working at Bulbshare !
 
 
-2. 2.Quality matters more than quantity !
+2. Quality matters more than quantity !
 
 It does not matter whether you finish or not, what we're mainly interested in, is:
   - Your approach to tackle UI challenges like this one
@@ -88,7 +88,7 @@ That div is composed of 2 parts:
   
   In this case, you can scroll through 2 items:
 
-  ##### Media item
+###### Media item
 
    <u>Requirements:</u>
    1. The `banner_image` should be centered horizontally 
@@ -97,7 +97,7 @@ That div is composed of 2 parts:
    4. Up/Down Arrows horizontally/vertically centred allowing to scroll through both items.
    5. The Up Arrow should be disabled on first item and down arrow disabled on second item
      
-  ##### Feed details Item
+##### Feed details Item
 
   <u>Requirements:</u>  
   A div (100% height) whose content should be horizontally centred, and stacks the following properties:
