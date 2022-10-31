@@ -121,19 +121,19 @@ That div is composed of 2 parts:
 #### Right side: List of comments (width: 500px)
 
 The right part is a div which takes also 100% height, and does not move as opposed to the left part.
-Its width is static and set to 500px.
+Its width is static and set to 500px.  
 
-<u>Requirements:</u>
-1. At the top it should display brand logo and name
+<u>Requirements:</u>  
+1. At the top it should display brand logo and name.  
 2. On a grey background, it should display the list of comments.
 
 A comment is composed of:
-- avatar
-- name
-- comment
+- avatar  
+- name  
+- comment  
 
 #### Assets
 
-In the `/public` folder, you'll find 2 svgs you can use in your code:
-- 1 for the closing of the fullscreen modal 
-- up/down arrows for scrolling through items
+In the `/public` folder, you'll find 2 svgs you can use in your code:  
+- 1 for the closing of the fullscreen modal.   
+- up/down arrows for scrolling through items.
