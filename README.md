@@ -83,8 +83,8 @@ A feed is composed of:
 
 When clicking on a feed image, a fullscreen div should show up, on top of the list of feed.
 
-<u>Requirements:</u>
-1. Show a page fullscreen on top of the feed.  
+<u>Requirements:</u>  
+1. Show a page fullscreen on top of the feed.     
 2. Add a close button on the left side to close the modal.
 
 
