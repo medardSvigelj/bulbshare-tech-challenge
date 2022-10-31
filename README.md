@@ -93,7 +93,7 @@ That div is composed of 2 parts:
 #### Left side (available space)
 
  <u>Requirements:</u>  
-  1. A div of 100% height which allows to scroll on multiple items.
+  1. A div of 100% height which allows to scroll on multiple items.  
   
   In this case, you can scroll through 2 items:
 
@@ -109,7 +109,8 @@ That div is composed of 2 parts:
 ##### Second Item: Feed details
 
   <u>Requirements:</u>  
-  A div (100% height) whose content should be horizontally centred, and stacks the following properties:  
+  A div (100% height) whose content should be horizontally centred, and stacks the following properties:
+
    1. brand `logo` at the top.   
    2. `feed_title`.  
    3. `starts_on` date with the following format (DD MMMM YYYY).  
@@ -123,7 +124,8 @@ That div is composed of 2 parts:
 The right part is a div which takes also 100% height, and does not move as opposed to the left part.
 Its width is static and set to 500px.  
 
-<u>Requirements:</u>  
+<u>Requirements:</u> 
+
 1. At the top it should display brand logo and name.  
 2. On a grey background, it should display the list of comments.
 
