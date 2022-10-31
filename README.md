@@ -17,11 +17,11 @@ to see the kind of stuff we do here. If you enjoy building that feature, you'll 
 
 2. Quality matters more than quantity !
 
-It does not matter whether you finish or not, what we're mainly interested in, is:
-  - Your approach to tackle UI challenges like this one
-  - How you organize and structure your code ?
-  - How do you make it easy to read, extend, and maintain in the long term ?
-  - The quality you can deliver in a limited amount of time
+It does not matter whether you finish or not, what we're mainly interested in, is:  
+  - Your approach to tackle UI challenges like this one  
+  - How you organize and structure your code ?  
+  - How do you make it easy to read, extend, and maintain in the long term ?  
+  - The quality you can deliver in a limited amount of time  
 
 3. This tech challenge must be done in ReactJS/Typescript and you should not need any extra library to build the features we request.
 However, if you include any, please add some notes to explain why.
