@@ -106,9 +106,9 @@ That div is composed of 2 parts:
    2. The `banner_image` should take 55% of the available space.  
    3. We should have a black background behind the image.  
    4. Up/Down Arrows horizontally/vertically centred allowing to scroll through both items.  
-   5. The Up Arrow should be disabled on first item and down arrow disabled on second item.
+   5. The Up Arrow should be disabled on first item and down arrow disabled on last item.
      
-##### Second Item: Feed details
+###### Second Item: Feed details
 
   <u>Requirements:</u>  
   
@@ -132,7 +132,7 @@ Its width is static and set to 500px.
 1. At the top it should display brand logo and name.  
 2. On a grey background, it should display the list of comments.
 
-A comment is composed of:
+A comment is composed of:  
 - avatar  
 - name  
 - comment  
@@ -140,5 +140,5 @@ A comment is composed of:
 #### Assets
 
 In the `/public` folder, you'll find 2 svgs you can use in your code:  
-- 1 for the closing of the fullscreen modal.   
-- up/down arrows for scrolling through items.
+- The closing of the fullscreen modal.   
+- Up/down arrows for scrolling through items.
