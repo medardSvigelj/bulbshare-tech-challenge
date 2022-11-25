@@ -30,9 +30,9 @@ You can use `styled` or widgets library like `@mui, semantic...` for the styling
 Apart from that you shouldn't need any extra library to build the features we request.
 However, if you include any, please add some notes to explain why.
 
-4. We don't expect the UI to be pixel perfect with the time constraint, so be pragmatic, and focus on the main feature first.
-
-
+4. We don't expect the UI to be 100% pixel perfect with the time constraint, but still we expect a certain level of quality.
+That means for example, no component out of place, missing margins ...
+Build something that you would appreciate using everyday
 
 
 5. Please, don't forget to tell us the amount of time you dedicated to this exercise, and what you would have done if you had more time. 
