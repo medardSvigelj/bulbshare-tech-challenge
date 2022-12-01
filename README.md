@@ -126,8 +126,8 @@ That div is composed of 2 parts:
 
 We want to be able to scroll through items in 2 ways:
 
-  1. Clicking Up/Down Arrows always horizontally/vertically centred. 
-  2. On mouse scroll up/down. Obviously that should not prevent you from scrolling normally withim an item whose content's heigh exceed the current window height.    
+  1. Clicking on Up/Down arrows. Buttons should be always horizontally/vertically centred. 
+  2. On mouse scroll up/down. Obviously that should not prevent you from scrolling normally within an item whose content's heigh exceed the current window height.    
 
 
 #### Right side: List of comments (width: 500px)
