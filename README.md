@@ -22,6 +22,8 @@ It does not matter whether you finish or not, what we're mainly interested in, i
   - How you organize and structure your code ?  
   - How do you make it easy to read, extend, and maintain in the long term ?  
   - The quality you can deliver in a limited amount of time
+  - The code you submit should be as close as possible to be ready for a release on production.
+    So imagine it is going ot be reviewed by developers and tested by QA for an imminent release.
 
 
 
@@ -31,7 +33,7 @@ Apart from that you shouldn't need any extra library to build the features we re
 However, if you include any, please add some notes to explain why.
 
 4. We don't expect the UI to be 100% pixel perfect with the time constraint, but still we expect a certain level of quality.
-That means for example, no component out of place, missing margins ...
+That means for example, no component out of place, missing margins, ui glitched ...
 Build something that you would appreciate using everyday
 
 
@@ -85,7 +87,7 @@ A feed is composed of:
 When clicking on a feed image, a fullscreen div should show up, on top of the list of feed.
 
 <u>Requirements:</u>  
-1. Show a page fullscreen on top of the feed.     
+1. Show a popup fullscreen on top of the feed.     
 2. Add a close button on the left side to close the modal.
 
 
@@ -94,8 +96,8 @@ That div is composed of 2 parts:
 #### Left side (available space)
 
  <u>Requirements:</u>  
-  1. A div of 100% height which allows to scroll on multiple items.  
-  
+  1. A div of 100% height which allows to scroll on multiple items. At all times, only one item should be visible and take the whole height available, except obviously when you switch between items (click on up/down). 
+
   
   In this case, you can scroll through 2 items:
 
@@ -105,8 +107,7 @@ That div is composed of 2 parts:
    1. The `banner_image` should be centered horizontally.   
    2. The `banner_image` should take 55% of the available space.  
    3. We should have a black background behind the image.  
-   4. Up/Down Arrows horizontally/vertically centred allowing to scroll through both items.  
-   5. The Up Arrow should be disabled on first item and down arrow disabled on last item.
+   4. The Up Arrow should be disabled on first item and down arrow disabled on last item.
      
 ###### Second Item: Feed details
 
@@ -120,6 +121,13 @@ That div is composed of 2 parts:
    4. Text `banner_text`.  
    5. Image `ad_1_image`.  
    6. Image `ad_2_image`.  
+   
+###### Scrolling through items
+
+We want to be able to scroll through items in 2 ways:
+
+  1. Clicking Up/Down Arrows always horizontally/vertically centred. 
+  2. On mouse scroll up/down. Obviously that should not prevent you from scrolling normally withim an item whose content's heigh exceed the current window height.    
 
 
 #### Right side: List of comments (width: 500px)
