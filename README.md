@@ -122,7 +122,7 @@ That div is composed of 2 parts:
    5. Image `ad_1_image`.  
    6. Image `ad_2_image`.  
    
-###### Scrolling through items
+#### Scrolling through items
 
 We want to be able to scroll through items in 2 ways:
 
