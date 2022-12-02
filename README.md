@@ -2,28 +2,28 @@
 
 Dear Future Bulbsharian,
 
-At Bulbshare, we are building a product which help makes consumer and brands closer together.
+At Bulbshare, we are building a product that brings consumers and brands closer together.
 See it as a kind of "social network".
 
 We are delighted to enlist your help in building one of its cool UI feature.
 
-Expected Time: 3-5 hours total time. ⌛  (This is not a strict limit: you can spend as much or as little as you want.)
+Expected Time: 3-5 hours total time. ⌛ (This is not a strict limit: you can spend as much or as little as you want.)
 
 # IMPORTANT NOTES
 
 1. We understand a take home test is a big investment in terms of time, but that will give you the opportunity
-to see the kind of stuff we do here. If you enjoy building that feature, you'll have a great time working at Bulbshare !
+to see the kind of stuff we do here. If you enjoy building the feature, you'll have a great time working at Bulbshare!
 
 
-2. Quality matters more than quantity !
+2. Quality matters more than quantity!
 
 It does not matter whether you finish or not, what we're mainly interested in, is:  
   - Your approach to tackle UI challenges like this one  
-  - How you organize and structure your code ?  
-  - How do you make it easy to read, extend, and maintain in the long term ?  
+  - How you organize and structure your code?  
+  - How do you make it easy to read, extend, and maintain in the long term?  
   - The quality you can deliver in a limited amount of time
   - The code you submit should be as close as possible to be ready for a release on production.
-    So imagine it is going ot be reviewed by developers and tested by QA for an imminent release.
+    So imagine it is going to be reviewed by developers and tested by QA for an imminent release.
 
 
 
@@ -34,7 +34,7 @@ However, if you include any, please add some notes to explain why.
 
 4. We don't expect the UI to be 100% pixel perfect with the time constraint, but still we expect a certain level of quality.
 That means for example, no component out of place, missing margins, ui glitched ...
-Build something that you would appreciate using everyday
+Build something that you would appreciate using everyday.
 
 
 5. Please, don't forget to tell us the amount of time you dedicated to this exercise, and what you would have done if you had more time. 
