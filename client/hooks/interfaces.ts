@@ -1,4 +1,4 @@
-interface Brand {
+export interface Brand {
   name: string;
   logo: string;
 }
@@ -13,4 +13,17 @@ export interface Feed {
   feed_title: string;
   name: string;
   starts_on: string;
+}
+export interface User {
+  avatar: string;
+  userref: string;
+  name: string;
+}
+
+export interface FeedComment {
+  bcommentref: string;
+  briefref: string;
+  comment: string;
+  submitted_on: string;
+  user: User;
 }

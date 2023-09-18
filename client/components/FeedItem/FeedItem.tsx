@@ -11,7 +11,7 @@ import {
 import React from "react";
 import { FeedItemProps } from "./interfaces";
 
-export const FeedItem = ({ feed }: FeedItemProps) => {
+export const FeedItem = ({ feed, onClick }: FeedItemProps) => {
   const { brand, banner_image, feed_title } = feed;
 
   return (
@@ -59,6 +59,7 @@ export const FeedItem = ({ feed }: FeedItemProps) => {
           backgroundPosition: "center",
           minHeight: "300px",
         }}
+        onClick={onClick}
       >
         <CardContent
           sx={{
