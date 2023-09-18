@@ -1,8 +1,12 @@
-import { Feed } from "../hooks/interfaces";
+import { Feed } from "../../hooks/interfaces";
 
-export interface FeedListProps {
-  feeds: Feed[];
+export interface FeedDetailsProps {
+  feed: Feed;
 }
-export interface FeedSkeletonProps {
-  pageSize: number;
+
+export interface FeedDetailsDialogProps {
+  feed: Feed;
+  onClose: () => void;
+  isDialogOpen: boolean;
 }
+
